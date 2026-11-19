@@ -1,0 +1,43 @@
+
+{
+  "name": "milon-bot",
+  "version": "1.0.0",
+  "description": "MILON BOT - Based on GoatBot V2",
+  "main": "index.js",
+  "engines": {
+    "node": "18.x",
+    "npm": ">=7.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "author": "MILON HASAN",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fuckyoumilon-source/Milon-is.-The-Pro-dev.git"
+  },
+  "dependencies": {
+    "@distube/ytdl-core": "^4.13.3",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.0.1",
+    "bluebird": "^3.7.2",
+    "canvas": "^2.9.1",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "form-data": "^4.0.0",
+    "fs-extra": "^11.1.0",
+    "mongoose": "^6.3.1",
+    "mqtt": "^4.3.7",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.7.5",
+    "npmlog": "^7.0.1",
+    "ora": "^5.4.1",
+    "request": "^2.88.2",
+    "sequelize": "^6.19.0",
+    "sqlite3": "^5.0.5",
+    "socket.io": "^4.5.1"
+  }
+}
